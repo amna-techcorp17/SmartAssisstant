@@ -1,57 +1,84 @@
-# SmartAssistant 🤖
+# 🤖 Smart Assistant
 
-SmartAssistant is a Python-based AI assistant project built with modular architecture. It can perform useful tasks using tools and LLM integration.
+A Python-based AI Smart Assistant built using modular tools and LLM integration.
+This project demonstrates how an assistant can process user input and respond intelligently using different components.
 
-## Features
+---
 
-- AI Assistant responses
-- Calculator tool
-- Search tool
-- Summarizer tool
-- Modular Python structure
-- Easy to expand
+## 🚀 Features
 
-## Technologies Used
+* 🧠 LLM (Large Language Model) integration
+* 🛠️ Modular tool-based architecture
+* 💬 Interactive assistant behavior
+* 📂 Clean and organized project structure
+* ⚡ Easy to extend with new tools
 
-- Python
-- LLM Integration
-- GitHub
-- Langgraph
+---
 
-## Project Structure
+## 🏗️ Project Structure
 
 SmartAssistant/
-│── llm/
-│── tools/
-│── agent.py
-│── main.py
-│── requirements.txt
+│── llm/               # LLM related logic
+│── tools/             # Custom tools/modules
+│── agent.py           # Core assistant logic
+│── main.py            # Entry point of the program
+│── requirements.txt   # Dependencies
+│── README.md          # Project documentation
 
-## How to Run
+---
 
-1. Install requirements:
+## ⚙️ Installation
 
-pip install -r requirements.txt
+1. Clone the repository:
+   git clone https://github.com/amna-techcorp17/SmartAssistant.git
+   cd SmartAssistant
 
-2. API key:
+2. Install dependencies:
+   pip install -r requirements.txt
 
-add your Anthropic API key in .env to execute it
+---
 
-3. Run project:
+## ▶️ Usage
+
+Run the main file:
 
 python main.py
 
+The assistant will start and you can interact with it via terminal.
 
-## Future Improvements
+---
 
-- Voice Assistant
-- GUI Interface
-- Web Deployment
-- More Smart Tools
+## 🧩 How It Works
 
+* main.py starts the application
+* agent.py handles user queries
+* llm/ manages language model responses
+* tools/ contains helper functions and utilities
 
+---
 
+## 📌 Requirements
 
-## Author
+* Python 3.x
+* Required libraries (listed in requirements.txt)
 
-Amna
+---
+
+## 📈 Future Improvements
+
+* Add GUI interface
+* Integrate APIs (Google, OpenAI, etc.)
+* Improve conversation memory
+* Add more intelligent tools
+
+---
+
+## 👩‍💻 Author
+
+Amna Chaudhary
+
+---
+
+## 📜 License
+
+This project is for educational purposes.
