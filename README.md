@@ -40,6 +40,7 @@ SmartAssistant/
 
 ## ▶️ Usage
 
+Add your Anthropic API key in .env file
 Run the main file:
 
 python main.py
@@ -50,10 +51,10 @@ The assistant will start and you can interact with it via terminal.
 
 ## 🧩 How It Works
 
-* main.py starts the application
-* agent.py handles user queries
-* llm/ manages language model responses
-* tools/ contains helper functions and utilities
+* main.py : starts the application
+* agent.py : handles user queries
+* llm/ : manages language model responses
+* tools/ : contains helper functions and utilities
 
 ---
 
