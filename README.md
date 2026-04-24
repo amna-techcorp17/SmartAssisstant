@@ -33,13 +33,14 @@ SmartAssistant/
 
 pip install -r requirements.txt
 
-2. Run project:
+2. API key:
+
+add your Anthropic API key in .env to execute it
+
+3. Run project:
 
 python main.py
 
-3. API key:
-
-add your Anthropic API key in .env to execute it
 
 ## Future Improvements
 
@@ -48,9 +49,7 @@ add your Anthropic API key in .env to execute it
 - Web Deployment
 - More Smart Tools
 
-# Author
 
-Amna
 
 
 ## Author
