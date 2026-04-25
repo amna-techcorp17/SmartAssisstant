@@ -40,7 +40,7 @@ SmartAssistant/
 
 ## ▶️ Usage
 
-Add your Anthropic API key in .env file
+Add your Groq API key in .env file
 Run the main file:
 
 python main.py
